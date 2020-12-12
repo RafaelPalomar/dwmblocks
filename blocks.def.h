@@ -8,6 +8,7 @@ static const Block blocks[] = {
 	{" ", "memory.sh",	                                                     30,  	 0},
 	{" ", "df -h |grep /$|tr -s ' '| cut -d' ' -f 4",	                         30,	 0},
 	{"", "date '+%b %d (%a) %I:%M%p'",					                          5,     0},
+	{"", "keyboard_map.sh",          					                          5,     3},
 	{"", "",                       					                          5,	 0},
 };
 
